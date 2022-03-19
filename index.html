@@ -10,22 +10,40 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@100&family=Josefin+Sans:wght@200&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+        integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-light bg-success">
-            <div class="container-fluid">
-                <a class="navbar-brand text-white">RandomBlogs</a>
-                <a class="navbar-brand text-white" href="./signup.html">Signup</a>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
-                    <button class="btn btn-outline-warning" type="submit">Search</button>
+    <nav class="navbar navbar-expend-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a href="#" class="navbar-brand">RandomBlogs</a>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active" aria-current="page">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Posts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./signup.html">Signup</a>
+                    </li>
+                </ul>
+                <form class="d-flex input-group w-auto">
+                    <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+                    <button class="btn btn-outline-warning" type="button" data-mdb-ripple-color="dark">Search</button>
                 </form>
             </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
     <div class="container">
         <div class="row">
             <div class="col-md-12 mt-4">
@@ -38,7 +56,7 @@
                 </div>
                 <div class="card ">
                     <div class="card-header">
-                        Featured
+                        Announcement
                     </div>
                     <div class="card-body d-flex text-center justify-content-center">
                         <div class="w-auto">
@@ -50,9 +68,13 @@
                     </div>
                 </div>
             </div>
+            <div class="card-header mt-4" style="width: 55%;">
+                Featured
+            </div>
+            <div class="card mb-3" style="max-width: 540px;">
 
-            <div class="card mb-3 mt-4" style="max-width: 540px;">
                 <div class="row g-0">
+
                     <div class="col-md-4">
                         <img src="https://morningpicker.com/wp-content/uploads/2020/12/54B983AE-33C1-4F73-BE53-6E2EA85376EE.png"
                             class="img-fluid rounded-start" alt="...">
@@ -68,7 +90,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card mb-3 mt-4 " style="max-width: 540px;">
+            <div class="card mb-3 " style="max-width: 540px;">
                 <div class="row g-0">
                     <div class="col-md-4">
                         <img src="https://s.mxmcdn.net/images-storage/albums5/2/7/4/8/2/2/47228472_500_500.jpg"
@@ -123,8 +145,161 @@
                     </div>
                 </div>
             </div>
+            <div class="card-header mt-4" style="width: 55%;">
+                All Posts
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://images.pexels.com/photos/3183183/pexels-photo-3183183.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+                            class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">10 Ways to Avoid Unnecessary Meetings with Asynchronous P2s</h5>
+                            <p class="card-text"> The shift to asynchronous work is real. Learn how P2, a tool that
+                                powers internal collaboration at WordPress.com, can help you and your team to
+                                communicate and work together remotely.
+
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 5 hours ago</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://i.pinimg.com/originals/1e/e5/96/1ee59675db033affe1187f66581b3727.jpg"
+                            class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Lord of the Mysteries-A Chinese Masterpiece Webnovel</h5>
+                            <p class="card-text"> With the rising tide of steam power and machinery, who can come close
+                                to being a Beyonder? Shrouded in the fog of history and darkness, who or what is the
+                                lurking evil that murmurs into our ears? Waking up to be faced with a string of
+                                mysteries, Zhou Mingrui finds himself reincarnated as Klein Moretti in an alternate
+                                Victorian era world where he sees a world filled with Potions, Divination, Hexes, Tarot
+                                Cards,
+                                Sealed Artifacts… </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 1 days ago</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="http://www.narayanahealth.org/blog/wp-content/uploads/2020/04/shutterstock_1636552801.jpg"
+                            class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">6 Ways to Boost Your Immune System - Houston Methodist</h5>
+                            <p class="card-text"> There are plenty of supplements and products that claim to help
+                                improve immunity. But boosting your immune system is a bit harder to accomplish than you
+                                may think — and for good reason. </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 days ago</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://images.saymedia-content.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cq_auto:eco%2Cw_1200/MTc0MjA4NDY3NTMwNjIyODQ0/8-steps-to-get-over-a-long-term-relationship.png"
+                            class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">How to Break Up With Someone You Live With: 15 Tips</h5>
+                            <p class="card-text"> Where love exists, so does the possibility of heartbreak, and at some
+                                point, you may realize you and your partner have no future together. Even when this fact
+                                is perfectly clear, ending the relationship can still be pretty tough — especially when
+                                you cohabitate. </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 5 days ago</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://www.thespruce.com/thmb/iFHoMCWrH8vw7QPec21kCt6ki78=/1920x1920/smart/filters:no_upscale()/how-to-create-daily-routine-hero-9abc3e09a46b49fe85b7038f65a5abbc.jpg"
+                            class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">The Importance of Maintaining a Routine While at Home</h5>
+                            <p class="card-text"> “Carrying out routine activities reduces stress by making the
+                                situation appear more controllable and predictable,” said Indumathi Bendi, a primary
+                                care physician at Piedmont Healthcare.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 7 days ago</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://idreamcareer.com/wp-content/uploads/2020/04/Career-Counselling-1.jpg"
+                            class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">How to Choose the Right Social Platform for Your Career</h5>
+                            <p class="card-text"> In the online community, there’s much debate over which social media
+                                platform is the best, with each having its own strengths, weaknesses, and perks. The
+                                debate continues when you add in whether or not you should be on all or just one to
+                                secure a decent following or online presence. </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 9 days ago</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://www.asicentral.com/media/31534/inspirationalquote-616.jpg"
+                            class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Motivation: How to get started and staying motivated</h5>
+                            <p class="card-text"> Most people want to change at least one thing in their life. But it
+                                can be challenging to find the motivation just to make a start. It helps to understand
+                                what motivation means to you so you can find your own ways to get motivated. </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 10 days ago</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://images-prod.healthline.com/hlcmsresource/images/AN_images/best-diet-plans-1296x728-feature.jpg"
+                            class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">The 8 Best Diet Plans — Sustainability, Weight Loss, and More</h5>
+                            <p class="card-text"> It’s estimated that nearly half of American adults attempt to lose
+                                weight each year (1Trusted Source). One of the best ways to lose weight is by changing
+                                your diet. Yet, the sheer number of available diet plans may make it difficult to get
+                                started, as
+                                you’re unsure which one is most suitable, sustainable, and effective.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 12 days ago</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://www.planetware.com/wpimages/2019/09/top-places-to-visit-in-the-world-istanbul-turkey.jpg"
+                            class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">16 Best Places to Visit in the World</h5>
+                            <p class="card-text"> The world is filled with such a wide variety of wonderful destinations
+                                and beautiful places to visit, it can be difficult to compile a list of the best ones.
+                                Thinking about a traveler who, for whatever reason, has never set foot outside his or
+                                her home town, where would be the first places they might visit? </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 15 days ago</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <nav aria-label="Page navigation example">
-                <ul class="pagination justify-content-center">
+                <ul class="pagination justify-content-center mt-4">
                     <li class="page-item disabled">
                         <a class="page-link">Previous</a>
                     </li>
