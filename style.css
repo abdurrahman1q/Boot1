@@ -1,0 +1,26 @@
+.checkbox {
+    width: 300px;
+    margin: 100px auto;
+}
+
+.carvd {
+    margin-top: 0;
+    margin-left: 365px;
+
+}
+
+.darkmode {
+    background-color: #092c3e;
+    color: white;
+
+}
+
+.darkmode .card {
+
+    background-color: #084363;
+}
+
+#checkbox {
+
+    cursor: pointer;
+}
